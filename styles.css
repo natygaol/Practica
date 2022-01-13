@@ -1,0 +1,41 @@
+div {
+  border: 1px solid black;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: row; 
+}
+
+.col, .col-2 {
+  width: 150px;
+  margin: 10px;
+  flex: 2;
+}
+
+.col-2 {
+  flex: 1;
+}
+
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.top, .bottom {
+  width: 200px;
+  height: 200px;
+}
+
+.lista {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 10px;
+}
+
